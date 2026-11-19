@@ -1,8 +1,28 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.kty.myday.a1gate",
-    "sha256_cert_fingerprints": ["55:73:B2:F8:38:83:C7:D3:B7:42:8B:56:10:8B:97:A7:63:B2:69:98:10:91:0A:49:0A:A7:40:E2:DC:58:D3:EF"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kty.myday.a1gate",
+      "sha256_cert_fingerprints": [
+        "55:73:B2:F8:38:83:C7:D3:B7:42:8B:56:10:8B:97:A7:63:B2:69:98:10:91:0A:49:0A:A7:40:E2:DC:58:D3:EF"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kty.myday.android",
+      "sha256_cert_fingerprints": [
+        "55:73:B2:F8:38:83:C7:D3:B7:42:8B:56:10:8B:97:A7:63:B2:69:98:10:91:0A:49:0A:A7:40:E2:DC:58:D3:EF"
+      ]
+    }
   }
-}]
+]
